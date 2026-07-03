@@ -17,13 +17,14 @@ Welcome to the FeedBack user guide. This wiki helps you install FeedBack, set up
 | Add a song file | [Import Songs](songs/import.md) |
 | Refresh the library | [Scan and Rescan](songs/rescan.md) |
 | Fix the wrong microphone or interface | [Audio Input Problems](troubleshooting/audio-input.md) |
+| Fix no sound | [No Sound or Output](troubleshooting/no-sound-output.md) |
 | Calibrate note detection | [Calibration](first-run/calibration.md) |
 | Report a bug | [Reporting an Issue](troubleshooting/report-issue.md) |
 | Learn what a feedpak is | [What Is a feedpak?](feedpak/index.md) |
+| Check requirements | [System Requirements](getting-started/system-requirements.md) |
 
 ## 0.3.0 Launch Focus
 
 For the 0.3.0 launch, the highest-value docs are install, first-run audio setup, song import, tuner, library refresh, playback basics, diagnostics, and known limitations.
 
 Screenshot and final design treatments are intentionally left for the design pass.
-

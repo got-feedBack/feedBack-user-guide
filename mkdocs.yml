@@ -19,6 +19,8 @@ nav:
   - Getting Started:
       - Quick Start: quick-start.md
       - What FeedBack Is: getting-started/what-feedback-is.md
+      - System Requirements: getting-started/system-requirements.md
+      - Getting Songs: getting-started/getting-songs.md
       - Common Terms: getting-started/common-terms.md
   - Installing FeedBack:
       - Install FeedBack Desktop: install/index.md
@@ -30,6 +32,7 @@ nav:
   - First-Time Setup:
       - Audio Input Setup: first-run/audio-input.md
       - Calibration: first-run/calibration.md
+      - Settings Overview: first-run/settings.md
       - Export Diagnostics: first-run/export-diagnostics.md
   - Songs and Library:
       - Import Songs: songs/import.md
@@ -39,6 +42,8 @@ nav:
       - Song Metadata: songs/metadata.md
   - Playing and Practicing:
       - Play a Song: play/play-a-song.md
+      - Player Controls: play/player-controls.md
+      - Speed, Looping, and Sections: play/speed-looping-sections.md
       - Scoring and Mastery: play/scoring.md
       - Practice Workflows: play/practice-workflows.md
   - Tuning, Input, and Calibration:
@@ -77,7 +82,11 @@ nav:
       - Streamer Mix Outputs: desktop-audio/streamer-mix-outputs.md
   - Song Files and feedpak:
       - What Is a feedpak?: feedpak/index.md
+      - Manifest Metadata: feedpak/manifest.md
+      - Arrangements: feedpak/arrangements.md
+      - Stems, Lyrics, and Timeline: feedpak/stems-lyrics-timeline.md
       - Authoring and Editing: feedpak/authoring.md
+      - Importing Tabs and Editing Arrangements: feedpak/importing-tabs-editor.md
       - Validating feedpak Files: feedpak/validation.md
   - Troubleshooting:
       - Audio Input Problems: troubleshooting/audio-input.md
@@ -87,6 +96,9 @@ nav:
       - Playback Problems: troubleshooting/playback.md
       - Plugin Problems: troubleshooting/plugins.md
       - Desktop Install Problems: troubleshooting/desktop-install.md
+      - No Sound or Output: troubleshooting/no-sound-output.md
+      - Permissions: troubleshooting/permissions.md
+      - Performance and Crashes: troubleshooting/performance-crashes.md
       - Reporting an Issue: troubleshooting/report-issue.md
   - Advanced Users:
       - Demucs Server: advanced/demucs-server.md
