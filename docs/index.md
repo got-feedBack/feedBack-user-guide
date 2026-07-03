@@ -2,6 +2,8 @@
 
 Welcome to the FeedBack user guide. This wiki helps you install FeedBack, set up your audio input, add songs, tune your instrument, play, practice, and troubleshoot common problems.
 
+![FeedBack 0.3.0 home screen](assets/screenshots/0.3.0/home.png)
+
 ## Start Here
 
 - [Quick Start](quick-start.md) - get from install to your first song.
@@ -29,4 +31,4 @@ Welcome to the FeedBack user guide. This wiki helps you install FeedBack, set up
 
 For the 0.3.0 launch, the highest-value docs are install, first-run audio setup, song import, tuner, library refresh, playback basics, diagnostics, and known limitations.
 
-Screenshot and final design treatments are intentionally left for the design pass.
+Additional screenshot and final design treatments are intentionally left for the design pass.
