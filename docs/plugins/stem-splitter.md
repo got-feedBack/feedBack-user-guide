@@ -21,6 +21,18 @@ Splitting and transcribing are heavy audio jobs. They can run three ways, and th
 
 The first job of each kind downloads its models — up to a couple of gigabytes, once. Nothing large is ever downloaded until you ask for it: the plugin warns and waits for your confirmation before any big download.
 
+## First-Time Setup, In Order
+
+If you've never split a song before, do this once. After that, splitting is a single click from a song's menu.
+
+1. **Open** Settings → Stem Splitter.
+2. **Pick how it runs.** The easiest choice is the built-in managed server: click **Install server + models**. (Alternatively, download a local engine to run fully offline, or enter a server URL if you already have one.)
+3. **Wait for the download.** This is the one large download — up to a couple of gigabytes. It happens once, and you can watch its progress on this page.
+4. **Confirm it's ready.** Click **Test status**. It should report the server is up and show its device (CPU or GPU).
+5. **Now split a song** (below). The models are already downloaded, so the job starts right away.
+
+You can also skip straight to step 5: if the models aren't ready when you split, the plugin tells you the size, asks first, downloads them, and then runs the job automatically. Either order works — this section is just the calmer path.
+
 ## Steps
 
 ### Split a song into stems
