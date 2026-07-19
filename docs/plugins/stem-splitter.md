@@ -7,6 +7,8 @@ The [Stems and Stem Mixer](stems.md) plugin plays and balances stems. Stem Split
 ## When To Use This
 
 - A song only has a full mix, and you want isolated parts to practice against.
+- A song is already split, but you want to split it again — a newer model gives cleaner
+  results, or an earlier conversion came out faulty.
 - You want to remove the part you play — mute the guitar and play it yourself over the rest of the band, or drop the vocals for a karaoke-style backing track.
 - You want to isolate one part instead — solo the drums to hear the groove, or the vocals to learn a line.
 - A song has no lyrics and you want them transcribed from the vocals.
@@ -44,7 +46,25 @@ You can also skip straight to step 5: if the models aren't ready when you split,
 4. Watch progress in the **queue** — click the "Split queued" toast, or open **Settings → Stem Splitter → Open the queue**.
 5. When it finishes, open the [Stem Mixer](stems.md) to hear the parts.
 
-The original full mix is always kept in the song, so a split never throws audio away.
+The original full mix is always kept in the song, so a split never throws audio away. And
+if you've added your own stems to a song — a click track, a backing part — a split leaves
+them exactly where they are.
+
+### Re-split a song that already has stems
+
+Use this to redo a split with a better model or engine, or to fix a faulty one.
+
+1. Open the menu on the song's card.
+2. Choose **Re-split stems…**. (It appears only on songs that already have stems.)
+3. A picker lists the song's replaceable stems, all checked. **Uncheck any stem you've
+   replaced yourself and want to keep** — an unchecked stem isn't touched at all: same
+   file, same bytes.
+4. Click **Re-split** and watch the queue, as with a normal split.
+
+Only the checked stems are overwritten. Stems the splitter can't produce — a click track
+you added, a custom backing stem — and the original full mix are never touched, and the
+picker says so. If you replaced a song's guitar with your own recording, uncheck `guitar`
+and it survives every re-split.
 
 ### Transcribe lyrics
 
@@ -65,7 +85,7 @@ Re-align keeps your words exactly as they are and only fixes their timing. It ne
 
 ## What You Should See
 
-- Card-menu actions: **Split stems**, **Transcribe lyrics**, **Re-align lyrics to vocals**, each enabled only when it applies to that song.
+- Card-menu actions: **Split stems**, **Re-split stems…**, **Transcribe lyrics**, **Re-align lyrics to vocals**, each enabled only when it applies to that song.
 - A **queue** you can reach from the toast or from the plugin's Settings page, showing each job's progress and a badge with the number running.
 - A failed job shows its full error, with a **Copy** button for pasting into a bug report.
 
@@ -74,6 +94,7 @@ Screenshot placeholders:
 - `SCREENSHOT: song card menu showing the three Stem Splitter actions`
 - `SCREENSHOT: Stem Splitter settings — engine choice, managed server card, Open the queue button`
 - `SCREENSHOT: the queue with a split and a transcription running`
+- `SCREENSHOT: the re-split picker with one stem unchecked`
 
 ## Managing the Built-In Server
 
@@ -106,7 +127,7 @@ Separation is powerful, but it isn't magic. Knowing these up front saves disappo
 
 | Problem | Try This |
 |---|---|
-| The action is greyed out | Split needs an un-split song; Transcribe needs a song with no lyrics; Re-align needs both lyrics and a vocal stem. |
+| The action is greyed out | Split needs an un-split song; Re-split needs a song that already has stems; Transcribe needs a song with no lyrics; Re-align needs both lyrics and a vocal stem. |
 | "Re-align needs a server" | Re-align can't run on the local engine. Configure a server, or use the built-in managed one. |
 | A job seems stuck at the start | It may be downloading models. Check the queue and the Settings page for download progress. |
 | Models re-download every launch | Update the server with **Check for update** — an older server had a bug that deleted weights. |
@@ -123,5 +144,5 @@ Separation is powerful, but it isn't magic. Knowing these up front saves disappo
 
 ## Applies To
 
-Version: Stem Splitter 0.4.x
+Version: Stem Splitter 0.5.x
 Platforms: Windows, macOS, Linux (managed server and local engine); any host for a remote/Docker server
