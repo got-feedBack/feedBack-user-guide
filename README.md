@@ -24,6 +24,7 @@ The docs are written as portable Markdown so they can be handed to design, integ
 
 ## Support Shortcuts
 
+- [Support and diagnostics hub](SUPPORT.md)
 - [Audio Input Problems](docs/troubleshooting/audio-input.md)
 - [No Sound or Output](docs/troubleshooting/no-sound-output.md)
 - [Calibration Problems](docs/troubleshooting/calibration.md)

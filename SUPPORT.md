@@ -1,6 +1,6 @@
 # FeedBack User Guide Support
 
-Use this page when linking users to help from GitHub issues, Discord, release notes, or the app.
+Use this page when linking users to troubleshooting, diagnostics, issue-reporting, or in-app help.
 
 ## Fast Support Links
 
