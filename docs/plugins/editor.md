@@ -55,8 +55,10 @@ Open in Editor**.
 - **Tracks column** (left) — the master mix, any stems, and every transcription
   part, each beside its timeline lane. Rename, reorder, fold into folders, resize.
 - **Timeline canvas** (center) — the waveform, the beat grid, and your notes. The
-  mouse wheel zooms, **Shift+wheel** pans, and the overview strip above the lanes
-  is a real horizontal scrollbar for skimming a long song.
+  mouse wheel **pans**; hold **Ctrl** and scroll to **zoom** (**Alt+scroll**
+  stretches the piano-roll lanes). The overview strip above the lanes is a real
+  horizontal scrollbar — drag it to skim a long song, or double-click it to fit
+  the whole song.
 - **Transport** (bottom) — play/stop, the playhead clock, loop, count-in,
   metronome, and follow-playhead.
 - **Mixer** (`Shift+C`) — vertical channel strips with live meters (see below).
@@ -84,7 +86,8 @@ pencil/draw, eraser, marquee, mute, scissors).
 ### Piano roll
 
 Notes as bars on a keyboard, colored by octave — ideal for keys parts, and a
-read-only reference for fretted parts (shown at sounding pitch).
+reference for fretted parts (shown at sounding pitch); you can add notes there by
+sounding pitch and the resolver picks the string and fret.
 
 ![Piano roll: notes as horizontal bars laid out on a piano keyboard.](../assets/screenshots/editor/pianoroll.png)
 
@@ -108,7 +111,7 @@ Three ways to set the tempo, coarse to fine:
 
 1. **Sync tempo to audio** — detects the recording's BPM and scales the whole grid.
 2. **Set a constant BPM** — type into the BPM box for a song at one tempo.
-3. **Tempo Map mode** (`T`) — the precise tool. Drag a barline onto its downbeat and
+3. **Tempo Map mode** (press `T`, then `T` again) — the precise tool. Drag a barline onto its downbeat and
    the surrounding bars re-space. From there: **`G`** suggests downbeats from the
    audio's onsets to the end of the song, **`Shift+B`** taps the tempo, and you can
    **beat-lock** a bar you've verified so later auto-fits leave it alone.
@@ -166,7 +169,7 @@ shortcut panel (`?`). The full, profile-aware list lives in that panel.
 | Problem | Try This |
 |---|---|
 | The editor buttons do nothing / it never loads | The editor needs a current FeedBack host. Update FeedBack, then reopen it. |
-| The chart drifts out of time with the recording | Open **Tempo Map** (`T`) and drag the beat grid onto the audio, or nudge the whole chart with the **Offset** box. |
+| The chart drifts out of time with the recording | Open **Tempo Map** (`T,T`) and drag the beat grid onto the audio, or nudge the whole chart with the **Offset** box. |
 | An import brought in the wrong instruments | Re-check the track table in **Create New**, or use **File ▸ Import** / **＋ Track** to add the right one. |
 | Drum notes were dropped on import | The wizard offers to remap percussion outside the kit vocabulary — accept the remap, or add the drums to an existing project. |
 | My build isn't in the library | **Build feedpak** writes to the library; a plain save only updates the working session. |
