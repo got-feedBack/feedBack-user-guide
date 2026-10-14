@@ -22,6 +22,7 @@ Short answer: if FeedBack shows no input signal, solve that before tuning, calib
 
 ## If Signal Appears in the OS but Not FeedBack
 
+- Open the **Audio** screen and click **Apply Device Settings**. If the signal drops when a song starts, see [Input Works in Audio Settings but Stops When a Song Starts](audio-input.md#input-works-in-audio-settings-but-stops-when-a-song-starts).
 - Restart FeedBack.
 - Re-select the input device.
 - Try another driver path if available.

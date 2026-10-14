@@ -16,6 +16,7 @@ Short answer: plugin problems can come from installation state, incompatible son
 3. Restart FeedBack.
 4. Try a song that should support the plugin.
 5. Check whether the plugin has required setup, such as input or stems.
+6. If a plugin broke after an update, use **Clear plugin state & cached Python deps** under [Reset or Repair the Configuration](performance-crashes.md#reset-or-repair-the-configuration).
 
 ## Song Compatibility
 

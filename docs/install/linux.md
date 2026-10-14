@@ -16,5 +16,5 @@ Use this page for Linux-specific install and first-launch notes.
 
 ## Audio Notes
 
-Your distribution and audio stack determine which devices appear. If you use PipeWire, JACK, or PulseAudio routing, confirm that FeedBack receives the intended input before calibration.
+Your distribution and audio stack determine which devices appear. FeedBack uses ALSA or JACK. On PipeWire or PulseAudio, pick ALSA and the PulseAudio sound server device, or JACK through `pipewire-jack`. Confirm that FeedBack receives the intended input before calibration.
 

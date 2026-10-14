@@ -10,17 +10,21 @@ The same physical audio interface can appear more than once if the operating sys
 
 | Driver Type | Platform | Notes |
 |---|---|---|
+| Windows Audio (WASAPI) | Windows | The default. Works with most devices. In exclusive mode, song audio can go silent ([feedBack-desktop#89](https://github.com/got-feedBack/feedBack-desktop/issues/89)). |
 | ASIO | Windows | Often preferred for low-latency audio interfaces. |
-| WASAPI / Windows Audio | Windows | Built-in Windows audio path; useful for many devices. |
 | CoreAudio | macOS | Standard macOS audio system. |
-| PipeWire / PulseAudio / JACK | Linux | Availability depends on distribution and setup. |
+| ALSA | Linux | The default. PipeWire and PulseAudio show up here as the PulseAudio sound server device. |
+| JACK | Linux | For JACK setups, including `pipewire-jack`. |
+
+FeedBack does not have a separate PipeWire or PulseAudio driver type.
 
 ## Choosing an Input
 
-1. Pick the device name that matches your hardware.
-2. If Windows shows driver labels, pick the driver path you intend to use.
+1. Open the **Audio** screen.
+2. Pick the **Input Device Type** (the driver path), then the device name that matches your hardware. Output has its own **Output Device Type**.
 3. Pick the correct channel.
-4. Confirm signal in the tuner or input meter.
+4. Click **Apply Device Settings**.
+5. Confirm signal in the tuner or input meter.
 
 ## Common Problems
 

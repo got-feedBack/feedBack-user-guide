@@ -19,6 +19,12 @@ Short answer: most audio input problems come from the wrong device, wrong channe
 5. Confirm the selected channel is correct.
 6. Open the tuner and check for movement.
 
+## Input Works in Audio Settings but Stops When a Song Starts
+
+This is a known issue in the desktop app ([feedBack-desktop#126](https://github.com/got-feedBack/feedBack-desktop/issues/126), [feedBack#747](https://github.com/got-feedBack/feedBack/issues/747)). The tuner hears your instrument, but scoring goes silent once a song begins.
+
+Workaround: open the **Audio** screen and click **Apply Device Settings** again, then return to the song.
+
 ## Windows Notes
 
 If the same interface appears more than once, check whether entries are labeled by driver type. Pick the driver path you intend to use.
@@ -26,6 +32,8 @@ If the same interface appears more than once, check whether entries are labeled 
 ## macOS Notes
 
 If you use BlackHole or another virtual device, confirm both macOS and FeedBack are pointed at the expected device.
+
+If FeedBack never asks for microphone access, see [Permissions](permissions.md).
 
 ## When Reporting
 

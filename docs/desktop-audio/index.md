@@ -4,11 +4,10 @@ Short answer: FeedBack Desktop includes native audio features that go beyond the
 
 ## Common Topics
 
-- Audio input devices.
-- ASIO, WASAPI, and CoreAudio.
-- VST or amp modeling support.
-- Backing track playback.
-- Streamer/extra output routing.
+- [Audio input devices](../first-run/audio-input.md)
+- [Driver types: ASIO, WASAPI, CoreAudio, ALSA, JACK](driver-types.md)
+- Amp modeling: [NAM Tone](../plugins/nam-tone.md) and [Rig Builder](../plugins/rig-builder.md)
+- [Streamer mix outputs](streamer-mix-outputs.md) (planned)
 
 ## Related Pages
 

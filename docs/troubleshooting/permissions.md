@@ -19,8 +19,9 @@ If the app cannot hear input:
 
 ## macOS
 
-- Check Privacy & Security for microphone permission.
-- If the app is blocked, allow it from system settings.
+- Check System Settings → Privacy & Security → Microphone.
+- If FeedBack never asks for microphone access and is not in that list, update to the current build. Some older builds were missing the audio-input entitlement, so macOS denied input silently ([#289](https://github.com/got-feedBack/feedBack/issues/289)).
+- If the app is blocked, see [macOS Install Notes](../install/macos.md).
 - Restart after permission changes.
 
 ## Linux

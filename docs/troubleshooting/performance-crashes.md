@@ -23,6 +23,16 @@ Short answer: performance problems can come from first-run model setup, heavy pl
 
 The first launch can be slower than normal. If model downloads or cache setup are running, wait before force-closing unless the app is clearly stuck.
 
+## Reset or Repair the Configuration
+
+If problems started after an update, or settings seem stuck, the desktop app can reset its configuration. Open Settings → Plugins → **Audio Engine** → **Reset / repair configuration**:
+
+| Option | What it clears |
+|---|---|
+| **Reset app settings & caches** | Audio device settings, window and UI preferences, Electron caches. Safe: rebuilt on next launch. |
+| **Clear plugin state & cached Python deps** | Plugin enabled/disabled state, plugin data, and plugin-installed Python packages. Installed plugins stay. |
+| **Full reset…** | Everything above. Optionally also removes installed plugins, the song library, and ML model caches. Only tick the song library box if you have a backup. |
+
 ## Reporting Details
 
 - Platform and build.

@@ -24,6 +24,8 @@ Short answer: if FeedBack plays but you hear nothing, check output device, syste
 | One song is silent | Song may be missing audio or using unsupported audio. |
 | Stems are silent | Stem mixer levels may be down. |
 | Preview works but player is silent | Player route or plugin route may differ. |
+| Song audio plays from the system default device instead of your chosen output (Linux) | Known issue ([#754](https://github.com/got-feedBack/feedBack/issues/754), [#214](https://github.com/got-feedBack/feedBack/issues/214)). Route FeedBack to the right device in `pavucontrol`. |
+| Song audio is silent but your guitar is heard (Windows, exclusive mode) | Known issue ([feedBack-desktop#89](https://github.com/got-feedBack/feedBack-desktop/issues/89)). Switch the output to shared Windows Audio or to ASIO. |
 
 ## Reporting Details
 
