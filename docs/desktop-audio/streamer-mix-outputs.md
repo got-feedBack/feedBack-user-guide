@@ -2,6 +2,9 @@
 
 Short answer: streamer mix outputs are planned desktop audio features for routing different mixes to local monitoring, OBS, or Discord.
 
+!!! note "Planned, not available yet"
+    This feature is not in current builds. Progress is tracked in [feedBack-desktop#48](https://github.com/got-feedBack/feedBack-desktop/issues/48). This page describes how it is meant to work.
+
 ## Use Cases
 
 - Hear game audio locally while your hardware guitar tone stays outside FeedBack.
@@ -34,7 +37,7 @@ The player hears guitar through their own hardware rig, while FeedBack sends a s
 
 ## Current Status
 
-This page is a launch planning page. The feature is desktop-focused and may depend on platform-specific audio routing. Use it to explain the design direction without promising that every routing option is available in every build.
+Planned for the desktop app. It may depend on platform-specific audio routing, so not every option may be available on every platform.
 
 ## Platform Notes
 
@@ -51,7 +54,8 @@ This page is a launch planning page. The feature is desktop-focused and may depe
 - Use headphones when testing voice-chat or stream-monitoring paths.
 - Confirm "what you hear" and "what stream hears" separately.
 
-## Design Handoff Notes
+<!--
+Design handoff (maintainers):
 
 The final page should include:
 
@@ -60,3 +64,4 @@ The final page should include:
 - "What you hear" vs "what stream hears" explanation.
 - Platform limitations.
 - Safety notes for feedback/monitor loops.
+-->

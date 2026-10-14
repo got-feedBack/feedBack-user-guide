@@ -1,8 +1,9 @@
 # Plugin Directory
 
-Short answer: plugins add specialized views, tools, and workflows to FeedBack. This directory gives the design team a first-pass catalog layout and gives users a place to discover what each plugin is for.
+Short answer: plugins add specialized views, tools, and workflows to FeedBack. Use this directory to find what each plugin is for.
 
-## Directory Card Pattern
+<!--
+Directory card pattern (design):
 
 Each plugin card should include:
 
@@ -13,6 +14,7 @@ Each plugin card should include:
 - Platform notes if any.
 - Link to the guide page.
 - Screenshot slot.
+-->
 
 ## Tuning and Detection
 
@@ -75,6 +77,4 @@ Each plugin card should include:
 | Themes | Change the app's visual theme. | Available | [Themes](themes.md) |
 | Splitscreen | Show multiple views at once. | Available | [Splitscreen](splitscreen.md) |
 
-## Design Handoff Notes
-
-The directory should work as a visual grid first and as a reference table second. Keep plugin cards compact: users should be able to scan for a tool by task, not by repository name.
+<!-- Design note: the directory should work as a visual grid first and as a reference table second. Keep plugin cards compact: users should be able to scan for a tool by task, not by repository name. -->

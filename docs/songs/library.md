@@ -35,13 +35,7 @@ Filters should always be visible when active. If the app remembers a filter or s
 
 Some songs may have more than one chart or authored version. 0.3.0 library work may group related charts or expose album views. When the UI groups versions, the user's play action should still be clear: which chart and arrangement will open.
 
-## Design Notes
-
-Screenshot placeholders:
-
-- `SCREENSHOT: Library card grid`
-- `SCREENSHOT: Filter drawer`
-- `SCREENSHOT: Sort menu`
+<!-- Screenshots to add: Library card grid; Filter drawer; Sort menu. -->
 
 ## Related Pages
 

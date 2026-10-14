@@ -89,12 +89,7 @@ Re-align keeps your words exactly as they are and only fixes their timing. It ne
 - A **queue** you can reach from the toast or from the plugin's Settings page, showing each job's progress and a badge with the number running.
 - A failed job shows its full error, with a **Copy** button for pasting into a bug report.
 
-Screenshot placeholders:
-
-- `SCREENSHOT: song card menu showing the three Stem Splitter actions`
-- `SCREENSHOT: Stem Splitter settings — engine choice, managed server card, Open the queue button`
-- `SCREENSHOT: the queue with a split and a transcription running`
-- `SCREENSHOT: the re-split picker with one stem unchecked`
+<!-- Screenshots to add: song card menu showing the three Stem Splitter actions; Stem Splitter settings — engine choice, managed server card, Open the queue button; the queue with a split and a transcription running; the re-split picker with one stem unchecked. -->
 
 ## Managing the Built-In Server
 

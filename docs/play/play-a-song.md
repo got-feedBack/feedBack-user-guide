@@ -19,11 +19,7 @@ Short answer: choose a song, choose an arrangement if prompted, tune if needed, 
 - Playback controls are available.
 - Plugins may add additional views or panels.
 
-Screenshot placeholders:
-
-- `SCREENSHOT: Song card`
-- `SCREENSHOT: Arrangement picker`
-- `SCREENSHOT: Player view`
+<!-- Screenshots to add: Song card; Arrangement picker; Player view. -->
 
 ## Common Problems
 

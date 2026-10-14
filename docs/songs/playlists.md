@@ -38,13 +38,7 @@ Common entry points:
 
 When using Play all, FeedBack should move through the queue without requiring you to return to the library after every song. If scoring is active, the result screen may appear between songs and the next song may wait until you dismiss it.
 
-## Design Notes
-
-Screenshot placeholders:
-
-- `SCREENSHOT: Add to playlist menu`
-- `SCREENSHOT: Playlist detail`
-- `SCREENSHOT: Now playing from playlist`
+<!-- Screenshots to add: Add to playlist menu; Playlist detail; Now playing from playlist. -->
 
 ## Related Pages
 

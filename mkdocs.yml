@@ -120,8 +120,8 @@ nav:
   - Releases and Updates:
       - 0.3.0 Notes: releases/0-3-0.md
       - Known Limitations: releases/known-limitations.md
-  - Contributing:
+  - A-Z Reference: reference/a-z.md
+  - Contributing to This Guide:
       - Page Template: contributing/page-template.md
       - Style Guide: contributing/style-guide.md
       - Design Handoff: contributing/design-handoff.md
-  - A-Z Reference: reference/a-z.md

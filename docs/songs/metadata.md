@@ -39,9 +39,7 @@ The song file carries authored metadata. FeedBack may also keep local user metad
 
 If you have several authored versions of the same recording, FeedBack may show them as separate charts or group them depending on your build and settings. A future grouped view should make the preferred chart clear and let you open alternate versions.
 
-## Design Handoff Notes
-
-The final page should show provenance labels such as "from song file", "your edit", or "matched" if those appear in the UI.
+<!-- Design note: the final page should show provenance labels such as "from song file", "your edit", or "matched" if those appear in the UI. -->
 
 ## Related Pages
 

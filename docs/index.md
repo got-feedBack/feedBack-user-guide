@@ -25,8 +25,4 @@ Welcome to the FeedBack user guide. This wiki helps you install FeedBack, set up
 | Check requirements | [System Requirements](getting-started/system-requirements.md) |
 | Look up a term | [Glossary](getting-started/common-terms.md) |
 
-## 0.3.0 Launch Focus
-
-For the 0.3.0 launch, the highest-value docs are install, first-run audio setup, song import, tuner, library refresh, playback basics, diagnostics, and known limitations.
-
-Screenshot and final design treatments are intentionally left for the design pass.
+<!-- 0.3.0 launch focus (maintainers): install, first-run audio setup, song import, tuner, library refresh, playback basics, diagnostics, and known limitations. Screenshots and final design treatments are left for the design pass. -->
