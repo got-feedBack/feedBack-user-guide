@@ -8,6 +8,16 @@ Use this page for Linux-specific install and first-launch notes.
 2. Make it executable.
 3. Run it.
 
+### Distributions Without AppImage Support
+
+Some distributions (for example CachyOS) have no native AppImage support, so opening the file may not install or launch it. [Gear Lever](https://flathub.org/apps/it.mijorus.gearlever) can install it for you, without the terminal:
+
+1. Download the `feedback-*.AppImage` file.
+2. Install Gear Lever from your Software app (it is on Flathub).
+3. Open Gear Lever once and complete its first-run steps.
+4. Double-click the AppImage and let Gear Lever install it.
+5. Launch FeedBack from your app menu.
+
 ## Debian or Ubuntu Package
 
 1. Download the `.deb` package.

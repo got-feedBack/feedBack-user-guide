@@ -1,37 +1,32 @@
 # Quick Start
 
-Short answer: install FeedBack Desktop, choose your audio input, add a song, tune, and press Play.
+Short answer: install FeedBack Desktop, choose your audio input, tune, and play one of the starter songs.
 
 ## Before You Start
 
 - A guitar or bass.
 - Headphones or speakers.
 - An audio input: microphone, USB cable, audio interface, or desktop bridge input.
-- At least one FeedBack song file.
+- Nothing else: three starter songs are installed on first run. Add your own song files (`.feedpak`) any time.
 
 ## Steps
 
 1. Install and open [FeedBack Desktop](install/index.md).
 2. Complete the first-run audio setup.
-3. Add a song from the Songs screen.
-4. If the library does not update, run a scan or rescan.
+3. Open **Song Library**. To add your own songs, click **Upload** in the top bar.
+4. If a new song does not appear, click the refresh button (⟳) in the Song Library toolbar.
 5. Open the tuner and tune to the current song.
-6. Select a song card and choose an arrangement.
-7. Press Play.
-8. After the song, review your result and accuracy.
+6. Click a song card to play its default arrangement, or click an arrangement chip on the card (for example Lead or Bass) to play that part.
+7. After the song, review your result and accuracy.
 
 ## What You Should See
 
-- The Songs screen shows at least one song card.
+- The Song Library shows the starter songs.
 - The audio input page shows the selected microphone or interface.
 - The tuner moves when you pluck a string.
 - The note highway or selected view loads when you play a song.
 
-Screenshot placeholders:
-
-- `SCREENSHOT: Songs screen with one song card`
-- `SCREENSHOT: Audio input selection`
-- `SCREENSHOT: Tuner on current song`
+<!-- Screenshots to add: Song Library with song cards, audio input selection, tuner on the current song. -->
 
 ## Common Problems
 

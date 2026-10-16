@@ -19,8 +19,8 @@ Short answer: download the installer for your platform from the latest FeedBack 
 
 | Platform | Expected Package | Notes |
 |---|---|---|
-| Windows | `.exe` installer | Windows SmartScreen may warn on first run. |
-| macOS | `.dmg` | Use the build matching your Mac architecture. |
+| Windows | `.msi` installer, or a Portable `.zip` | Windows SmartScreen may warn on first run. |
+| macOS | `.pkg` installer, or a Portable `.zip` | Apple Silicon (M1 or newer) only. There is no Intel build yet. |
 | Linux | `.AppImage` or `.deb` | AppImage may need executable permission. |
 
 ## What You Should See

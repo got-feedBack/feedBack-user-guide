@@ -7,8 +7,8 @@ Short answer: FeedBack Desktop needs a supported desktop operating system, audio
 | Platform | Notes |
 |---|---|
 | Windows | Windows 10/11 x64 is the expected desktop target. |
-| macOS | macOS desktop builds are expected for supported Mac hardware. |
-| Linux | AppImage or Debian/Ubuntu-style packages may be available depending on release. |
+| macOS | Apple Silicon (M1 or newer). Intel Macs are not supported yet. |
+| Linux | x86_64, as an AppImage or a `.deb` package. |
 | Web/server | Advanced or hosted setups may differ from the desktop app. |
 
 ## Recommended Hardware

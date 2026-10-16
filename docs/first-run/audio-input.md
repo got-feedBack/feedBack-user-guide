@@ -17,7 +17,7 @@ Short answer: choose the microphone, cable, or audio interface FeedBack should l
 
 ## Steps
 
-1. Open the audio input setup screen.
+1. Open input setup: it runs during first launch, and you can reopen it from Settings → Plugins → **Set up input devices**.
 2. Select the input device you want FeedBack to hear.
 3. If channels are shown, choose the channel that carries your instrument.
 4. Pluck or play your instrument.
@@ -29,10 +29,7 @@ Short answer: choose the microphone, cable, or audio interface FeedBack should l
 - Windows devices may include driver labels such as ASIO or Windows Audio.
 - The input meter or tuner should react when you play.
 
-Screenshot placeholders:
-
-- `SCREENSHOT: Audio input picker`
-- `SCREENSHOT: Input meter reacting to signal`
+<!-- Screenshots to add: audio input picker, input meter reacting to signal. -->
 
 ## Common Problems
 

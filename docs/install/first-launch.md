@@ -9,14 +9,21 @@ Short answer: the first launch may take longer than normal while FeedBack prepar
 - You may be taken directly into first-run setup.
 - Later launches should be faster.
 
-## First-Run Checklist
+## First-Run Setup
 
-1. Confirm the app opens.
-2. Complete audio input setup.
-3. Set your instrument and tuning if prompted.
-4. Import or scan at least one song.
-5. Open the tuner and confirm input signal.
-6. Play a short song or section.
+On first launch, FeedBack walks you through a short setup:
+
+1. **Display name** and avatar.
+2. **Song directory**: the folder where your songs live.
+3. **Feats of Power**: whether to show your earned trophies on the public Feats wall. Off by default.
+4. **Instrument path(s)**: pick guitar, bass, or both. You can add more later.
+5. **Input setup**: choose the device and channel FeedBack should hear. You can click **Skip for now**.
+6. **How do you want to hear yourself?** (desktop app only): turn on the built-in amp simulations, or leave it off if you play through your own amp. Off by default.
+7. **Calibration challenge**: play the *fee[dB]ack Diagnostic* song to confirm your setup.
+
+Three starter songs are installed on first run, so the library is not empty.
+
+To run input setup again later, open Settings → Plugins and click **Set up input devices**.
 
 ## Common Problems
 
